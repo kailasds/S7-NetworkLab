@@ -108,3 +108,28 @@ while True:
 conn.close()
 server.close()
 
+
+
+
+
+
+
+
+
+"""Output
+client1
+$ python mcc.py 192.168.10.124 12345
+Welcome to this chatroom!
+hello
+<You>hello
+
+
+server
+$ python mcs.py 192.168.10.124  12345
+192.168.10.124 connected
+<192.168.10.124> hello
+"""
+
+
+
+
